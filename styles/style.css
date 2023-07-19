@@ -1,0 +1,80 @@
+/* work sans fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* common css */
+
+html {
+  font-family: "Work Sans", sans-serif;
+  font-size: 10px;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+.container {
+  padding: 10px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  color: #0b0223;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.color_text {
+  color: #ff42a5;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-item {
+  color: #3c354f;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 1.8rem 2.4rem;
+ 
+}
+
+.nav-icon span {
+  margin-right: 5px;
+}
+
+/* Font Awesome CDN link in the HTML file is required to use the icon */
