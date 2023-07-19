@@ -9,7 +9,8 @@
     margin-top: 24px;
   }
   .navbar,
-  .navbar-right {
+  .navbar-right,
+  .gammer_content {
     flex-direction: column;
   }
   .banner {
@@ -32,6 +33,29 @@
     font-size: 1.5rem;
     font-weight: 600;
   }
+  .gammer_details {
+    text-align: center;
+  }
+  h2 {
+    font-size: 2.8rem;
+  }
+  .gammer_sec {
+    padding: 2.6rem 0;
+  }
+  p.text_para {
+    color: #534c64;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .gammer_details h6 {
+    font-size: 2.2rem;
+    line-height: 26px;
+  }
+  p.small {
+    font-size: 17px;
+    margin-top: 14px;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 960px) {
   .container {
@@ -39,7 +63,7 @@
   }
   .logo {
     font-size: 3.5rem;
-}
+  }
   .banner {
     column-gap: 80px;
   }
@@ -61,5 +85,32 @@
     font-weight: 600;
     margin-bottom: 10px;
   }
+  .gammer_content {
+    flex-direction: column;
+  }
+  .gammer_details {
+    text-align: left;
+  }
+  .gammer_details p {
+    margin-left: 0;
+  }
+}
 
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+  .container {
+    width: 95%;
+  }
+  .banner {
+    column-gap: 40px;
+    padding-top: 100px;
+  }
+  .banner h3 {
+    font-size: 4rem;
+  }
+  .banner h1 {
+    font-size: 6.5rem;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
 }
