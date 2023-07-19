@@ -4,7 +4,7 @@
 * {
   margin: 0;
   padding: 0;
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 /* common css */
 
@@ -231,7 +231,7 @@ p.small {
   border-radius: 1.6rem;
   border: 4px solid #f948b2;
   flex-direction: column;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 .online_hover_details p {
   text-align: center;
@@ -245,11 +245,36 @@ p.small {
   display: block;
   border-radius: 16px;
 }
-.online_hover_details i{
-color: #fff;
-font-size: 48px;
+.online_hover_details i {
+  color: #fff;
+  font-size: 48px;
 }
 .online_items:hover .online_hover_details {
   opacity: 1;
   cursor: pointer;
+}
+/* install section */
+.install_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.install_content,
+.install_img {
+  text-align: center;
+  flex-basis: 50%;
+}
+.install_content h2,
+.install_content p {
+  max-width: 353px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.install_img{
+position: relative;
+}
+.tomgf {
+    position: absolute;
+    left: -15%;
+    bottom: -16%;
 }

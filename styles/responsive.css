@@ -11,7 +11,8 @@
   .navbar,
   .navbar-right,
   .gammer_content,
-  .online_games_container {
+  .online_games_container,
+  .install_container {
     flex-direction: column;
   }
   .banner {
@@ -60,6 +61,15 @@
   .online_items {
     max-width: 100%;
   }
+  .tomgf {
+    position: relative;
+    left: -50%;
+    top: -87px;
+    width: 38%;
+  }
+  .install_img {
+    padding-left: 28px;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 960px) {
   .container {
@@ -89,7 +99,8 @@
     font-weight: 600;
     margin-bottom: 10px;
   }
-  .gammer_content {
+  .gammer_content,
+  .install_container {
     flex-direction: column;
   }
   .gammer_details {
@@ -103,6 +114,15 @@
   }
   .online_items {
     max-width: 47%;
+  }
+  .tomgf {
+    position: relative;
+    left: -43%;
+    top: -201px;
+    width: 35%;
+}
+  .install_img {
+    padding-left: 28px;
   }
 }
 
@@ -123,4 +143,20 @@
   .btn {
     margin-bottom: 10px;
   }
+  .install_content,
+  .install_img {
+    text-align: center;
+    flex-basis: 40%;
+  }
+  .install_content {
+    margin-top: 105px;
+  }
+  .install_container {
+    align-items: flex-start;
+  }
+  .tomgf {
+    left: -21%;
+    bottom: -63px;
+    width: 50%;
+}
 }
