@@ -62,18 +62,27 @@
     max-width: 100%;
   }
   .tomgf {
-    position: relative;
-    left: -50%;
-    top: -87px;
-    width: 38%;
+    position: absolute;
+    left: -9px;
+    bottom: -20px;
+    width: 39%;
   }
   .install_img {
     padding-left: 28px;
+  }
+  .category_con {
+    padding: 0;
+    margin-top: 0px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 960px) {
   .container {
     width: 90%;
+  }
+
+  .category_con {
+    padding: 0;
+    margin-top: 0px;
   }
   .logo {
     font-size: 3.5rem;
@@ -116,13 +125,13 @@
     max-width: 47%;
   }
   .tomgf {
-    position: relative;
-    left: -43%;
-    top: -201px;
+    position: absolute;
+    left: -8px;
+    bottom: -51px;
     width: 35%;
-}
+  }
   .install_img {
-    padding-left: 28px;
+    padding-left: 72px;
   }
 }
 
@@ -158,5 +167,5 @@
     left: -21%;
     bottom: -63px;
     width: 50%;
-}
+  }
 }
