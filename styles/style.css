@@ -279,7 +279,7 @@ p.small {
   bottom: -16%;
 }
 
-/*  */
+/* Category */
 
 .category_con {
   display: flex;
@@ -305,4 +305,57 @@ p.small {
   font-style: normal;
   font-weight: 600;
 }
+/* Footer */
 
+.footer_sec {
+  background: #0b0223;
+  padding: 120px 0;
+}
+.footer_content {
+  text-align: center;
+}
+.footer_logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.footer_logo h2 {
+  color: #fff;
+}
+.footer_menu ul,
+.footer_menu_2 ul {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 6.6rem 0;
+  flex-wrap: wrap;
+}
+.footer_menu ul li a {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.footer_icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  color: #fff;
+  flex-wrap: wrap;
+}
+.footer_icons i {
+  font-size: 40px;
+}
+.footer_icons i.fa-brands.fa-youtube {
+  color: #fff;
+}
+.footer_menu_2 ul li a, .cpright {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.cpright small{
+
+}

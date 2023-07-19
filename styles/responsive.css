@@ -71,8 +71,30 @@
     padding-left: 28px;
   }
   .category_con {
-    padding: 0;
+    padding: 60px 0;
     margin-top: 0px;
+  }
+  .footer_sec {
+    padding: 60px 0;
+  }
+  .footer_icons {
+    width: 269px;
+    margin: 0 auto;
+  }
+  .footer_menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    padding: 3.6rem 0;
+    flex-wrap: wrap;
+  }
+  .footer_menu ul li a {
+    font-size: 1.6rem;
+  }
+  .cpright small {
+    width: 147px;
+    margin: 0 auto;
+    display: block;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -80,10 +102,6 @@
     width: 90%;
   }
 
-  .category_con {
-    padding: 0;
-    margin-top: 0px;
-  }
   .logo {
     font-size: 3.5rem;
   }
@@ -133,6 +151,40 @@
   .install_img {
     padding-left: 72px;
   }
+  .category_con {
+    padding: 60px 0;
+    margin-top: 0px;
+  }
+  .footer_menu ul,
+  .footer_menu_2 ul,
+  .footer_icons {
+    width: 424px;
+    margin: 0 auto;
+    gap: 34px;
+  }
+  .footer_menu ul,
+  .footer_icons {
+    width: 400px;
+  }
+
+  .footer_icons {
+    width: 250px;
+  }
+  .category_con {
+    padding: 60px 0;
+    margin-top: 0px;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .category_items {
+    width: 206px;
+    gap: 1.6rem;
+    margin-inline: auto;
+  }
+  .category_items p {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
 }
 
 @media screen and (min-width: 960px) and (max-width: 1280px) {
@@ -167,5 +219,9 @@
     left: -21%;
     bottom: -63px;
     width: 50%;
+  }
+  .category_con {
+    padding: 60px 0;
+    margin-top: 0px;
   }
 }
